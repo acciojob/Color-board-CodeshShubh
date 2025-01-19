@@ -25,7 +25,7 @@ document.addEventListener("DOMContentLoaded", function () {
         // Event listener for hover effect
         square.addEventListener("mouseenter", function () {
             square.style.backgroundColor = randomColor; // Apply the random color on hover
-            square.style.transition = "background-color 1s ease-out";
+            square.style.transition = "background-color 0.2s ease-out";
         });
 
         // Event listener for mouse leave to reset the color smoothly
